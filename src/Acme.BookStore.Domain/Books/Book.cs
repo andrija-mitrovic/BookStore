@@ -10,17 +10,4 @@ namespace Acme.BookStore.Books
         public DateTime PublishDate { get; set; }
         public float Price { get; set; }
     }
-
-    public enum BookType
-    {
-        Undefined,
-        Adventure,
-        Biography,
-        Dystopia,
-        Fantastic,
-        Horror,
-        Science,
-        ScienceFiction,
-        Poetry
-    }
 }
